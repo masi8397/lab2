@@ -81,25 +81,36 @@ This produces a string of form a^n*b^m*c^k, where m >= 0, n > 0, and k > 0
 		
 **d)**	
 baab can be generated with this grammar:
+	
 	S = AaBb
+	
 	S = baBb
+	
 	S = baab
 		
 		
 bbbab cannot be generated because of an extra 'a':
+	
 	S = AaBb
+	
 	S = AbaBb
+	
 	S = AbaaBb
 		
 		
 bbaaaaa cannot be generated because we will always end with an 'a'
+	
 	S = AaBb
 		
 		
 bbaab can be generated with this grammar: 
+	
 	S = AaBb
+	
 	S = AbaBb
+	
 	S = Abaab
+	
 	S = bbaab
 		
 	
