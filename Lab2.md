@@ -1,9 +1,10 @@
-lab2
+Lab 2
 ====
 
 Lab 2 markdown file for written questions 
 
 Name: Michelle Bray
+
 Partner: Marc Simpson
 
 #1. Grammars: Synthetic Examples
@@ -158,10 +159,10 @@ accc can be produced by the grammar
 # 2. Grammars: Understanding A Language
 
 **a)** 
-	i.	The first grammar contains two terminals: operand and operator.
-		It is left associative because it recurses on the left side,
-		where the rule is e operator operand.
-		An example parse tree is (opor = operator and opnd = operand):
+i. The first grammar contains two terminals: operand and operator.
+It is left associative because it recurses on the left side,
+where the rule is e operator operand.
+An example parse tree is (opor = operator and opnd = operand):
 ```	
 				e
 			/   |   \
@@ -171,10 +172,10 @@ accc can be produced by the grammar
 	   |
 	  opnd
 ```
-			The second grammar contains three terminals: operand, operator, and empty.
-			It is right associative because is recurses on the right side,
-			(on esuffix  e::= operand esuffix)
-			An example parse tree is (S = essufix):
+The second grammar contains three terminals: operand, operator, and empty.
+It is right associative because is recurses on the right side,
+(on esuffix  e::= operand esuffix)
+An example parse tree is (S = essufix):
 ```
 				e
 			  /   \
@@ -186,9 +187,9 @@ accc can be produced by the grammar
 						   |
 						 empty	 
 ```
-	ii.	These grammars generate the same expression.
-		They both recurse, the first one on itself and the second through esuffix
-		Their parse trees return the same terminal symbols, apart from the epsilon
+ii. These grammars generate the same expression.
+They both recurse, the first one on itself and the second through esuffix
+Their parse trees return the same terminal symbols, apart from the epsilon
 			
 	
 **b)**	
